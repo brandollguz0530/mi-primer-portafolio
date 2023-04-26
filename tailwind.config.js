@@ -8,7 +8,7 @@ export default {
       //   serif: ['Merriweather', 'serif'],
       // },
       backgroundImage: {
-      fondo: 'url(./images/bgmobil.png)'
+      fondo: 'url(/images/bgmobil.png)'
       },
     },
   },
