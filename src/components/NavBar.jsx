@@ -10,7 +10,7 @@ const NavBar = () => {
       <div>
         <img src="/images/atomo.png" alt="" />
       </div>
-      <ul className={burguer ? `fixed pt-5 top-[80px] flex flex-col items-center gap-14 left-0 bg-blue-950 w-full h-full text-white opacity-40` : `hidden md:flex  md:text-white md:gap-6 lg:gap-8`}>
+      <ul className={burguer ? `fixed pt-5 top-[80px] flex flex-col items-center gap-14 left-0 bg-black w-full h-full text-white` : `hidden md:flex  md:text-white md:gap-6 lg:gap-8`}>
         <li>
           <a href="">Home</a>
         </li>

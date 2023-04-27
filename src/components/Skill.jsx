@@ -2,13 +2,13 @@ import React from 'react'
 
 const Skill = () => {
   return (
-    <div className='bg-[#1A1A1AE5] bg-opacity-70  rounded-xl flex flex-wrap justify-center sm:w-full md:w-320  md:justify-start'>
+    <div className='bg-[#1A1A1AE5] bg-opacity-70  rounded-xl flex flex-wrap justify-center sm:w-full md:w-320  md:justify-start md:flex-wrap'>
 
-        <h3 className=' text-white font-semibold mt-5'>
+        <h3 className=' text-white font-semibold mt-5 md:w-full text-center w-full'>
         technologies that I use
         </h3>
-    <div className='w-64 h-64 bg-[#3E3C3C80] rounded-lg mt-[80px] flex flex-col items-center justify-center m-4 text-center '>
-        <img className='w-[200px] h-[200px]' src="https://img.icons8.com/color/512/html-5--v1.png" alt="" />
+    <div className='w-64 h-64 bg-[#3E3C3C80] rounded-lg mt-5 flex flex-col items-center justify-center m-4 text-center '>
+        <img className='w-[200px] h-[200px] bg-cover' src="https://img.icons8.com/color/512/html-5--v1.png" alt="" />
         <p className='text-white text-[20px] text-center mt-2'>HTML</p>
     </div>
 
